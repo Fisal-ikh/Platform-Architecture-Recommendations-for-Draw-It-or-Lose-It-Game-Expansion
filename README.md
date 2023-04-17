@@ -4,27 +4,26 @@ Project Name: Platform Architecture Recommendations for Draw It or Lose It Game 
 Introduction:
 This project aims to provide technology consultancy to The Gaming Room regarding the expansion of their game Draw It or Lose It to various operating systems. The focus is on analyzing the characteristics of different systems architectures and techniques specific to them, recommending an appropriate operating platform, identifying an appropriate storage management system, explaining memory management techniques, and addressing security concerns.
 
-Recommendations:
+Briefly summarize The Gaming Room client and their software requirements. Who was the client? What type of software did they want you to design?
+The Gaming Room is a client who requested help in developing a web-based version of their game app called Draw It or Lose It. The game is similar to Win, Lose or Draw, where teams compete to guess what is being drawn, but instead, the application will render images as clues. The game consists of four rounds of play lasting one minute each, and drawings are fully complete at the 30-second mark. The software requirements include the ability to have one or more teams involved, multiple players assigned to each team, unique game and team names, and only one instance of the game in memory at any given time.
 
-Operating Platform:
-After analyzing the requirements of the Draw It or Lose It game, it is recommended to use Linux as the server operating platform. Linux is an open-source operating system that offers better flexibility, stability, and security as compared to other operating systems. Moreover, it supports a wide range of hardware, which makes it a good choice for future expansion.
 
-Operating Systems Architectures:
-Linux provides various operating system architectures, including monolithic, microkernel, and hybrid. For the Draw It or Lose It game, a monolithic architecture is recommended because it is efficient, provides fast access to hardware, and is easy to manage.
+What did you do particularly well in developing this documentation?
+In developing this documentation, I ensured that all the necessary requirements were included, and the software design document was clearly structured and easy to understand. I also made sure that the document was concise and covered all aspects of the game application.
 
-Storage Management:
-For the recommended operating platform, it is suggested to use the Ext4 file system for storage management. Ext4 is a journaling file system that provides better performance, reliability, and scalability. Moreover, it supports large file sizes and provides support for advanced features such as encryption and compression.
 
-Memory Management:
-The recommended operating platform uses various memory management techniques such as virtual memory, demand paging, and memory allocation. These techniques help to optimize the memory usage of the Draw It or Lose It game and ensure smooth performance.
+What about the process of working through a design document did you find helpful when developing the code?
+The process of working through a design document helped me to identify potential issues and gaps in the requirements and allowed me to address them early in the development process. It also helped me to have a clear understanding of the client's needs and the software requirements, which was beneficial in developing the code.
 
-Distributed Systems and Networks:
-To enable communication between various platforms, a distributed system architecture is recommended. The Draw It or Lose It game can use RESTful APIs for communication between different platforms. The network that connects the devices can use a VPN (Virtual Private Network) for secure communication. Additionally, it is recommended to have redundant servers and load balancing to ensure high availability and scalability.
 
-Security:
-Security is a top priority for The Gaming Room. To protect user information on and between various platforms, it is recommended to use secure communication protocols such as SSL/TLS. The recommended operating platform provides various security capabilities such as file system encryption, firewall, and intrusion detection. It is also recommended to perform regular security audits and updates to ensure that the game is secure.
+If you could choose one part of your work on these documents to revise, what would you pick? How would you improve it?
+If I could revise one part of my work on these documents, I would focus on improving the overall organization and structure of the software design document. I would ensure that all sections are clearly labeled and that there is consistency in the formatting throughout the document.
 
-Conclusion:
-In conclusion, this project provides technology consultancy to The Gaming Room for the expansion of their game Draw It or Lose It to various operating systems. The recommendations include the use of Linux as the server operating platform, a monolithic architecture, Ext4 file system for storage management, memory management techniques, distributed systems and networks, and security measures. These recommendations ensure the smooth performance, scalability, and security of the game in different computing environments.
 
+How did you interpret the user’s needs and implement them into your software design? Why is it so important to consider the user’s needs when designing?
+To interpret the user's needs, I focused on understanding the game's requirements and the user's expectations when playing the game. I then implemented these needs into the software design by ensuring that all requirements were met and that the game's functionality was user-friendly. Considering the user's needs when designing software is crucial to ensure that the end product meets their expectations and is easy to use.
+
+
+How did you approach designing software? What techniques or strategies would you use in the future to analyze and design a similar software application?
+In approaching the design of this software, I used a combination of techniques, including gathering and analyzing requirements, creating use cases, and designing the system architecture. In the future, I would continue to use these techniques and incorporate agile methodologies such as Scrum to manage the development process effectively.
 
